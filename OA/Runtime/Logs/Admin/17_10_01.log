@@ -1,0 +1,1529 @@
+[ 2017-10-01T07:49:13+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T07:51:17+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:05:50+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:05:57+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:06:14+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:06:16+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:06:52+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-01T08:06:55+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:07:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:09:49+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','54154.54','12354846514','2017-10-01 08:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','54154.54','12354846514','2017-10-01 08:00')
+
+[ 2017-10-01T08:09:51+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:10:59+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:11:29+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5484.54','8844151265845','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5484.54','8844151265845','2017-10-01 00:00')
+
+[ 2017-10-01T08:11:32+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:15:41+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','1','0','20000','13584948516','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','1','0','20000','13584948516','2017-10-01 00:00')
+
+[ 2017-10-01T08:16:14+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:19:15+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:19:49+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:24:29+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\OAXT\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\OAXT\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','1','0','20000','13584948516','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','1','0','20000','13584948516','2017-10-01 00:00')
+
+[ 2017-10-01T08:24:33+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:25:26+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\OAXT\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\OAXT\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5112252','135484949616','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5112252','135484949616','2017-10-01 00:00')
+
+[ 2017-10-01T08:25:49+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T08:30:32+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5112252','135484949616','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000001' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','1','韩雪','女','1','2','0','5112252','135484949616','2017-10-01 00:00')
+
+[ 2017-10-01T08:32:18+08:00 ] ::1 /oaxt/admin/index/employeesadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`) VALUES ('4')
+
+[ 2017-10-01T08:33:37+08:00 ] ::1 /oaxt/admin/index/employeesadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T08:38:09+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:38:16+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:39:49+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Admin\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:48:57+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:49:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-01T08:52:14+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:54:39+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','','','1','2','0','46454','','2017-10-01 00:00') [ RunTime:0.1250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T08:55:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','54515.5','131587844545145','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','54515.5','131587844545145','2017-10-01 00:00')
+
+[ 2017-10-01T08:56:13+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','46454','131587844545145','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','46454','131587844545145','2017-10-01 00:00')
+
+[ 2017-10-01T08:56:34+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','46454','131587844545145','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000004' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','男','1','2','0','46454','131587844545145','2017-10-01 00:00')
+
+[ 2017-10-01T08:56:37+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:57:04+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T08:57:44+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','女','1','2','0','46454','1442255','2017-10-01 00:00') [ RunTime:0.0810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-01T08:59:22+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:00:15+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:01:03+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:01:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','4','韩雪','女','1','2','0','54514','13654894','2017-10-01 00:00') [ RunTime:0.0790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T09:01:46+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:01:51+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:01:55+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:01:58+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:02:19+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T09:02:23+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesupdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: UPDATE `allemployees` SET `id`='4',`number`='4',`name`='韩雪',`sex`='女',`positionid`='1',`departmentid`='2',`password`='0',`salary`='54514',`telphone`='13654894',`enterdate`='2017-10-01 00:00:00' WHERE ( id=4 ) [ RunTime:0.4946s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-01T09:02:26+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:02:27+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-01T09:02:35+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesupdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: UPDATE `allemployees` SET `id`='4',`number`='4',`name`='韩雪',`sex`='女',`positionid`='1',`departmentid`='2',`password`='123456',`salary`='54514',`telphone`='13654894',`enterdate`='2017-10-01 00:00:00' WHERE ( id=4 ) [ RunTime:0.2150s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-01T09:03:55+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','0','郑爽','女','1','2','123456','879715','13569847846','2017-10-01 00:00') [ RunTime:0.0730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:03:58+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:04:10+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:04:14+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesupdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: UPDATE `allemployees` SET `id`='5',`number`='5',`name`='郑爽',`sex`='女',`positionid`='1',`departmentid`='2',`password`='123456',`salary`='879715',`telphone`='13569847846',`enterdate`='2017-10-01 00:00:00' WHERE ( id=5 ) [ RunTime:0.1660s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-01T09:05:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','6','胡可','女','1','3','123456','9994154','13698458795','2017-10-01 00:00') [ RunTime:0.0910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:05:41+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-01T09:07:24+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','0','','','0','0','123456','0','',' ')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','0','','','0','0','123456','0','',' ')
+
+[ 2017-10-01T09:14:05+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','7','舒畅','女','1','1','123456','165214','13254897461','2017-10-01 00:00') [ RunTime:0.0730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T09:14:11+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:16:18+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:16:51+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','8','舒畅','女','1','1','123456','156154','163648474654','2017-10-01 00:00') [ RunTime:0.0660s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-01T09:16:54+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:17:49+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:18:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','7','舒畅','女','1','1','123456','151244','4612588444','2017-10-01 00:00') [ RunTime:0.0580s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-01T09:21:13+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:22:19+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','8','李小璐','女','1','1','123456','5154.54','46125498745','2017-10-01 00:00') [ RunTime:0.0760s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-01T09:22:22+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:35:12+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','张乐','女','1','1','123456','15621','12354187454','2017-10-01 00:00') [ RunTime:0.0790s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:36:47+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:37:42+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','2','123456','15164','12541548784','2017-10-01 00:00') [ RunTime:0.0680s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T09:37:51+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-01T09:38:21+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:38:49+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:39:21+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','2','123456','12545.12','12541698745','2017-10-01 00:00') [ RunTime:0.0680s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-01T09:40:00+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:40:22+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:40:55+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','2','123456','545.21','55457844','2017-10-01 00:00') [ RunTime:0.0740s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:42:09+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:42:46+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:43:52+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:48:41+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:48:46+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:50:03+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0040s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','1','123456','1564.12','12455','2017-10-01 00:00') [ RunTime:0.0650s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:56:26+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:56:48+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T09:57:21+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T09:57:47+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','2','123456','12154','2145645','2017-10-01 00:00') [ RunTime:0.0890s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:06:33+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:07:06+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:07:34+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0030s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','9','余文乐','男','1','2','123456','1545','152454','2017-10-01 00:00') [ RunTime:0.1000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:07:40+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:09:29+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','10','章龄之','女','1','2','123456','5545','452145','2017-10-01 00:00') [ RunTime:0.0810s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:09:37+08:00 ] ::1 /OAXT/index.php/Admin/Index/announcement/menu/notice/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:09:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:09:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:09:41+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:10:03+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:10:55+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','11','宇文化及','男','1','3','123456','4551','45204','2017-10-01 00:00') [ RunTime:0.1090s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:11:11+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:12:51+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:12:52+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:12:53+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:12:54+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:12:55+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:12:56+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:16:22+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:16:23+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:17:31+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','12','诸葛华华','男','2','1','123456','125415','135654','2017-10-01 00:00')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','12','诸葛华华','男','2','1','123456','125415','135654','2017-10-01 00:00')
+
+[ 2017-10-01T10:17:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:18:45+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:19:24+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','12','诸葛华华','男','1','1','123456','525545','156564','2017-10-01 00:00') [ RunTime:0.0780s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:20:03+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '000012' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','12','诸葛亮亮','男','1','1','123456','525545','156564','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000012' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','12','诸葛亮亮','男','1','1','123456','525545','156564','2017-10-01 00:00')
+
+[ 2017-10-01T10:27:50+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:28:34+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','0','','','0','0','123456','0','','2017-10-01 00:00')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','0','','','0','0','123456','0','','2017-10-01 00:00')
+
+[ 2017-10-01T10:28:46+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`number`,`positionid`,`departmentid`,`password`,`salary`) VALUES ('0','0','0','123456','0')
+
+[ 2017-10-01T10:31:24+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`number`,`positionid`,`departmentid`,`password`,`salary`) VALUES ('0','0','0','123456','0')
+
+[ 2017-10-01T10:31:33+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:32:13+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','完颜洪烈','男','1','2','123456','1245','24254','2017-10-01 00:00') [ RunTime:0.0790s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-01T10:32:40+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','完颜努尔哈赤','男','1','2','123456','1245','24254','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','完颜努尔哈赤','男','1','2','123456','1245','24254','2017-10-01 00:00')
+
+[ 2017-10-01T10:33:12+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`oa`.`allemployees`, CONSTRAINT `allemployees_ibfk_1` FOREIGN KEY (`positionid`) REFERENCES `position` (`id`))
+ [ SQL语句 ] : INSERT INTO `allemployees` (`number`,`positionid`,`departmentid`,`password`,`salary`) VALUES ('0','0','0','123456','0')
+
+[ 2017-10-01T10:36:12+08:00 ] ::1 /OAXT/index.php/Admin/Index/index/menu/user/code/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-01T10:36:18+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:37:00+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','15245','954215','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','15245','954215','2017-10-01 00:00')
+
+[ 2017-10-01T10:37:04+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:37:43+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','211245','52215542','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','211245','52215542','2017-10-01 00:00')
+
+[ 2017-10-01T10:37:49+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:39:22+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:39:59+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','5524515','455241','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000013' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','13','努尔哈赤','男','1','2','123456','5524515','455241','2017-10-01 00:00')
+
+[ 2017-10-01T10:40:06+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:41:01+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','14','努尔哈赤','男','1','2','123456','15645','2452575','2017-10-01 00:00') [ RunTime:0.3160s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:41:33+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','15','柯瑞琴','女','1','2','123456','15645','2452575','2017-10-01 00:00') [ RunTime:0.0380s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-01T10:47:02+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:47:30+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-01T10:47:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-01T10:49:18+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00') [ RunTime:0.0630s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 1 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 2 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 3 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 5 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 6 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 7 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 8 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 9 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 10 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\b8c50408fa1b296a45f287c1e5c9cc3f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-01T10:49:32+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+
+[ 2017-10-01T10:49:38+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+
+[ 2017-10-01T10:51:06+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+ERR: 1062:Duplicate entry '000016' for key 'number'
+ [ SQL语句 ] : INSERT INTO `allemployees` (`id`,`number`,`name`,`sex`,`positionid`,`departmentid`,`password`,`salary`,`telphone`,`enterdate`) VALUES ('0','16','尊上','男','1','1','123456','124522','52157','2017-10-01 00:00')
+

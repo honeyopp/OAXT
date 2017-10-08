@@ -1,0 +1,337 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" href="/oaxt/Public/admin/css/bootstrap.min.css">
+	<script src="/oaxt/Public/admin/js/jquery.min.js"></script>
+	<script src="/oaxt/Public/admin/js/bootstrap.min.js"></script>
+	<script src="/oaxt/Public/admin/js/holder.min.js"></script>
+	<script>menu="<?php echo ($_GET[menu]); ?>"?"<?php echo ($_GET[menu]); ?>":"user";</script>
+	<style>
+		.left{border-right: 1px solid #ccc;}
+		.times{display: block;margin-top: -40px;border-radius: 5px;position: relative;right:-45px;outline: none;}
+		.ua {display: block;color: #fff;
+		    background-color: #449d44;
+		    border-color: #398439;margin-right: 2px;margin-left: 5px;float:left;padding: 8px;border-radius: 5px;}
+	    .da {display: block; color: #fff;
+		    background-color: #c9302c;
+		    border-color: #ac2925;float:left; padding: 8px;border-radius: 5px;}
+				.ua:hover {color: #fff;
+		    background-color: #449d44;
+		    border-color: #398439;}
+		    .da:hover {    color: #fff;
+		    background-color: #c9302c;
+		    border-color: #ac2925;}
+	    .aa{color:#fff;}
+	    a:hover{text-decoration: none;}
+		.aa{background-color: #337AB7;padding: 8px;border-radius: 5px;border-color:#337AB7;}
+
+	</style>
+</head>
+</head>
+<body>	
+
+	<div class="container">	
+
+		<!-- <h3 class="page-header">OA后台管理系统</h3> -->
+		<!-- 导航条 start -->
+		<nav class="navbar navbar-default" role="navigation" style="background-image:url(/oaxt/Public/admin/img/bg1.png) ,url(/oaxt/Public/admin/img/bg2.png);background-repeat:no-repeat;background-position:100% 100%,0%,100%">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-exapmple-navbar-collapse-1">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">OA办公系统</a>
+			</div>
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">后台首页</a></li>
+					<!-- <li><a href="">重新登录</a></li> -->
+					<li><a href="/oaxt/index.php/Admin/Login/logout">退出</a></li>
+				</ul>
+			</div>
+		</nav>	
+		<!-- 导航条end -->	
+		<!-- 后台内容区域 start -->
+		<div class="row">
+			<div class="col-md-2 left">
+				<!-- 职员管理 -->
+				<div class="panel panel-primary text-center user">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt btn list-group-item active">职员管理</a>
+					</div>
+						<!-- 左侧菜单职员管理 -->
+					<div class="panel-body">
+						<a href="<?php echo U('index',array('menu'=>user,'code'=>1));?>" class="list-group-item">查看职员</a>
+						<a href="javascript:;" class="list-group-item" data-toggle="modal" data-target="#myModaladd">添加职员</a>
+					</div>
+					     <!-- 左侧菜单职员管理 -->
+				</div>
+				<!-- 职员管理 -->
+				<!-- 公告管理 -->
+				<div class="panel panel-primary text-center notice">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt   btn list-group-item active">公告管理</a>
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('announcement',array('menu'=>notice,'code'=>1));?>" class="list-group-item ">查看公告</a>
+						<a href="<?php echo U('announcement',array('menu'=>notice,'code'=>2));?>" class="list-group-item ">添加公告</a>
+					</div>
+				</div>
+
+				<div class="panel panel-primary text-center askleave">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">请假管理</a>
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('askleave',array('menu'=>askleave,'code'=>1));?>" class="list-group-item ">查看请假</a>
+						<a href="<?php echo U('askleave',array('menu'=>askleave,'code'=>2));?>" class="list-group-item ">新增请假条</a>
+					</div>
+				</div>
+
+				<div class="panel panel-primary text-center leavetype">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">请假类型管理</a>
+					</div>
+
+					<div class="panel-body">
+						<a href="<?php echo U('leavetype',array('menu'=>leavetype,'code'=>1));?>" class="list-group-item ">查看请假类型</a>
+						<a href="<?php echo U('leavetype',array('menu'=>leavetype,'code'=>2));?>" class="list-group-item">新增请假类型</a>
+					</div>
+				</div>	
+				<div class="panel panel-primary text-center department">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">部门管理</a>
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('department',array('menu'=>department,'code'=>1));?>" class="list-group-item  ">查看部门</a>
+						<a href="<?php echo U('department',array('menu'=>department,'code'=>2));?>" class="list-group-item  ">新增部门</a>
+					</div>
+				</div>
+
+				<div class="panel panel-primary text-center grant">
+					<div  class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">权限管理</a>
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('grant',array('menu'=>grant,'code'=>1));?>" class="list-group-item ">查看用户权限</a>
+						<a href="<?php echo U('grant',array('menu'=>grant,'code'=>2));?>" class="list-group-item ">权限分配</a>
+					</div>
+					
+				</div>	
+				<div class="panel  panel-primary text-center position">
+					<div  class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">职位管理</a>
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('position',array('menu'=>position,'code'=>1));?>" class="list-group-item">查看职位</a>
+						<a href="<?php echo U('position',array('menu'=>position,'code'=>2));?>" class="list-group-item">新增职位</a>	
+					</div>
+				</div>	
+
+				<div class="panel panel-primary text-center positiontype">
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">权限类型管理</a>
+					</div> 
+					<div class="panel-body">
+						<a href="<?php echo U('positiontype',array('menu'=>positiontype,'code'=>1));?>" class="list-group-item">查看权限类型</a>
+						<a href="<?php echo U('positiontype',array('menu'=>positiontype,'code'=>2));?>" class="list-group-item">新增类型管理</a>
+					</div>
+				</div>
+				<div class="panel panel-primary text-center system">	
+					<div class="panel-heading">
+						<a href="javascript:;" class="btnt  btn list-group-item active">系统管理</a>		
+					</div>
+					<div class="panel-body">
+						<a href="<?php echo U('system',array('menu'=>system,'code'=>1));?>" class="list-group-item ">系统日志</a>
+						<a href="<?php echo U('system',array('menu'=>system,'code'=>2));?>" class="list-group-item ">数据备份</a>
+						<a href="<?php echo U('system',array('menu'=>system,'code'=>3));?>" class="list-group-item ">修改密码</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 right">
+				<table class="table table-bordered">
+					<caption class="text-center">职员信息员</caption>
+					<h4><a href="" class="aa" data-toggle="modal" data-target="#myModaladd">增加人员</a></h4>
+					<h4 class="text-right"><?php echo ($show); ?></h4>
+					<tr>
+						<th class="text-center"><input type="checkbox" id="checkedall">工号</th>
+						<th class="text-center">姓名</th>
+						<th class="text-center">密码</th>
+						<th class="text-center">性别</th>
+						<th class="text-center">职位</th>
+						<th class="text-center">部门</th>
+						<th class="text-center">工资</th>
+						<th class="text-center">电话</th>
+						<th class="text-center">入职时间</th>
+						<th class="text-center">操作</th>
+					</tr>
+					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$employ): $mod = ($i % 2 );++$i;?><tr id="<?php echo ($employ[id]); ?>">
+							<td class="text-center"><input type="checkbox" name="checkname"><?php echo ($employ[number]); ?></td>
+							<td class="text-center"><?php echo ($employ[name]); ?></td>
+							<td class="text-center"><?php echo ($employ[password]); ?></td>
+							<td class="text-center"><?php echo ($employ[sex]); ?></td>
+							<td class="text-center"><?php echo ($employ[positionid]); ?> </td>
+							<td class="text-center"><?php echo ($employ[departmentid]); ?></td>
+							<td class="text-center"><?php echo ($employ[salary]); ?></td>
+							<td class="text-center"><?php echo ($employ[telphone]); ?></td>
+							<td class="text-center"><?php echo ($employ[enterdate]); ?></td>
+							<td class="text-center"><a href="javaacript:;" class="ua" data-toggle="modal" data-target="#myModal" onclick="update(<?php echo ($employ[id]); ?>)"><span class="glyphicon glyphicon-pencil"></span>修改</a><a href="" class="da"><span class="glyphicon glyphicon-trash"></span>删除</a></td>
+						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				</table>
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-lg">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				        <h4 class="modal-title" id="myModalLabel">个人信息</h4>
+				      </div>
+						<table class="table table-bordered usertable modal-body" >
+						</table>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="save()">提交</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+		<!-- 增加职员模态框 start-->
+				<div class="modal fade" id="myModaladd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-lg">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				        <h4 class="modal-title" id="myModalLabeladd">增加职员</h4>
+				      </div>
+			<!--  增加职员模态框主体start-->
+						<table class="table table-bordered adduser modal-body" >
+	<tr>
+		<td>id号：<input type="text" value="" class="text-center" value="不填" disabled></td>
+		<td>工号：<input type="text" value="" class="text-center"></td>
+		<td>姓名：<input type="text" value="" class="text-center"></td>
+		
+	</tr>
+	<tr>	
+		<td>性别：<input type="text" value="" class="text-center"></td>
+		<td>职位：<input type="text" value="" class="text-center"></td>
+		<td>部门：<input type="text" value="" class="text-center"></td>
+	</tr>
+	<tr>
+		<td>密码：<input type="text" value="" class="text-center"></td>	
+		<td>工资：<input type="text" value="" class="text-center"></td>
+		<td>电话：<input type="text" value="" class="text-center"></td>
+	</tr>
+	<tr>
+		<td>入职时间：<input type="date" value="" class="text-center" id="startDate"><input type="time"></td>
+
+	</tr>
+	
+						</table>
+	<!-- 增加职员模态框主体end -->					
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="adduser()">提交</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>	
+	<!--增加职员模态框end  -->
+
+			</div>
+		</div>
+		<!-- 后台内容区域 end -->
+	</div>
+</body>
+<script>
+	
+	$('#checkedall').click(function(){
+		$("input[name='checkname']").click().attr('checked',true);
+		alert($("input[name='checkname']").attr('checked'));
+	});	
+ 
+	$('.panel-heading').eq(0).siblings().show();
+	$('.panel-body').not($('.panel-body').eq(0)).hide();
+	$('.btnt').click(function(){
+		$(this).parent().next().slideDown();
+		$('.btnt').parent().next().not($(this).parent().next()).slideUp()
+
+	});
+	$('.ua,.da').mouseleave(function(){
+		$(this).css({'color':'#fff','text-decoration':'none'});
+	});
+	$('.aa').mouseenter(function(){
+		$(this).css({'color':'#fff','text-decoration':'none'});
+	});
+function update(id){
+	$.post('<?php echo U("employeesedit");?>',{id:id},function(data){
+			$('.usertable').html(data);
+	});
+}
+
+function save(){
+	 var  id=$('.usertable tr td input').eq(0).val();
+	 var  number=$('.usertable tr td input').eq(1).val();
+	 var  name=$('.usertable tr td input').eq(2).val();
+	 var  sex=$('.usertable tr td input').eq(3).val();
+	 var  positionid=$('.usertable tr td input').eq(4).val();
+	 var  departmentid=$('.usertable tr td input').eq(5).val();
+	 var  password=$('.usertable tr td input').eq(6).val();
+	 var  salary=$('.usertable tr td input').eq(7).val();
+	 var  telphone=$('.usertable tr td input').eq(8).val();
+	 var  enterdate=$('.usertable tr td input').eq(9).val();
+$.post('<?php echo U("employeesupdate");?>',{
+			id:id,
+			number:number,
+			name:name,
+			sex:sex,
+			positionid:positionid,
+			departmentid:departmentid,
+			password:password,
+			salary:salary,
+			telphone:telphone,
+			enterdate:enterdate
+			},function(data){
+				$('#'+data.id).children().eq(0).html(data.number);
+				$('#'+data.id).children().eq(1).html(data.name);
+				$('#'+data.id).children().eq(2).html(data.password);
+				$('#'+data.id).children().eq(3).html(data.sex);
+				$('#'+data.id).children().eq(4).html(data.positionid);
+				$('#'+data.id).children().eq(5).html(data.departmentid);
+				$('#'+data.id).children().eq(6).html(data.salary);
+				$('#'+data.id).children().eq(7).html(data.telphone);
+				$('#'+data.id).children().eq(8).html(data.enterdate);
+		});
+}
+	
+
+function adduser(){
+	 var  id=$('.adduser tr td input').eq(0).val();
+	 var  number=$('.adduser tr td input').eq(1).val();
+	 var  name=$('.adduser tr td input').eq(2).val();
+	 var  sex=$('.adduser tr td input').eq(3).val();
+	 var  positionid=$('.adduser tr td input').eq(4).val();
+	 var  departmentid=$('.adduser tr td input').eq(5).val();
+	 var  password=$('.adduser tr td input').eq(6).val();
+	 var  salary=$('.adduser tr td input').eq(7).val();
+	 var  telphone=$('.adduser tr td input').eq(8).val();
+	 var  enterdate=$('#startDate').val()+" "+$('#startDate').next().val();
+	 $.post('<?php echo U("employeesadd");?>',{
+			id:id,
+			number:number,
+			name:name,
+			sex:sex,
+			positionid:positionid,
+			departmentid:departmentid,
+			password:password,
+			salary:salary,
+			telphone:telphone,
+			enterdate:enterdate
+			},function(data){
+				$('.aa').parent().next().append(data);
+			});
+}
+
+
+</script>
+</html>

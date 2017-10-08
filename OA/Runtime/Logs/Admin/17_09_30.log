@@ -1,0 +1,1070 @@
+[ 2017-09-30T07:05:05+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:08+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:05:09+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:16+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesupdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: UPDATE `allemployees` SET `id`='3',`number`='3',`name`='高渐离',`sex`='女',`positionid`='1',`departmentid`='3',`password`='123456',`salary`='89868.6',`telphone`='13521215685',`enterdate`='2017-09-27 00:00:00' WHERE ( id=3 ) [ RunTime:0.0780s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-30T07:05:26+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:28+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:05:28+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:30+08:00 ] ::1 /oaxt/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:05:32+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:07:38+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:07:39+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:07:44+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:07:46+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:11:24+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:14:29+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:14:55+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:15:01+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:15:02+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:05+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:05+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:06+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:06+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:06+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:07+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:26+08:00 ] ::1 /oaxt/index.php/Admin/Index/index/menu/user/code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:37+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:38+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:39+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:16:43+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:16:45+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:17:04+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:17:05+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:17:07+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:17:20+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:17:27+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesupdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: UPDATE `allemployees` SET `id`='2',`number`='2',`name`='张勇',`sex`='男',`positionid`='1',`departmentid`='2',`password`='123456',`salary`='99999.2',`telphone`='13569897451',`enterdate`='2017-09-28 00:00:00' WHERE ( id=2 ) [ RunTime:0.1390s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-30T07:17:31+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:17:43+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:18:47+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:27:28+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:29:20+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-30T07:29:36+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:29:38+08:00 ] ::1 /oaxt/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T07:40:29+08:00 ] ::1 /oaxt/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-09-30T07:40:30+08:00 ] ::1 /oaxt/index.php/Admin/Index/themes/pmahomme/img/b_calendar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T09:43:35+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-30T09:43:41+08:00 ] ::1 /OAXT/index.php/Admin/Index/employeesedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `allemployees` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `allemployees` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 2 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 3 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 4 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 8 行.
+NOTIC: [8] Use of undefined constant positionid - assumed 'positionid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 9 行.
+NOTIC: [8] Use of undefined constant departmentid - assumed 'departmentid' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 10 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 13 行.
+NOTIC: [8] Use of undefined constant salary - assumed 'salary' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 14 行.
+NOTIC: [8] Use of undefined constant telphone - assumed 'telphone' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 15 行.
+NOTIC: [8] Use of undefined constant enterdate - assumed 'enterdate' D:\AppServ\www\OAXT\OA\Runtime\Cache\Admin\adc462f98780f5f2f596fe24e1abba98.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-30T09:52:26+08:00 ] ::1 /oaxt/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
